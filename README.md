@@ -7,7 +7,6 @@ Changed RTC type to a DS3231 since it's FAR more precise - the DS1307 originally
 
 Libraries used:
 
-
-DS3232RTC by Jack Christensen - https://github.com/JChristensen/DS3232RTC
+DS3232RTC by Jack Christensen - https://github.com/JChristensen/DS3232RTC - use the included SetSerial example sketch to set the RTC clock.
  
 Timezone by Jack Christensen - https://github.com/JChristensen/Timezone
