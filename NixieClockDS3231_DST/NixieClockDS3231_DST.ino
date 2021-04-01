@@ -63,7 +63,6 @@ TimeChangeRule myDST = {"CEST", Last, Sun, Mar, 2, +120};     //Standard time = 
 TimeChangeRule mySTD = {"CET", Last, Sun, Nov, 2, +60};    //Daylight time = UTC + 1 hours
 Timezone myTZ(myDST, mySTD);
 
-TimeChangeRule *tcr;        //pointer to the time change rule, use to get TZ abbrev
 
 void loop() {
   time_t utc = now();
