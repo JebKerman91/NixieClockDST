@@ -60,7 +60,7 @@ void setup() {
 
 // EU CET
 TimeChangeRule myDST = {"CEST", Last, Sun, Mar, 2, +120};     //Standard time = UTC + 2 hours
-TimeChangeRule mySTD = {"CET", Last, Sun, Nov, 2, +60};    //Daylight time = UTC + 1 hours
+TimeChangeRule mySTD = {"CET", Last, Sun, Oct, 2, +60};    //Daylight time = UTC + 1 hours
 Timezone myTZ(myDST, mySTD);
 
 
